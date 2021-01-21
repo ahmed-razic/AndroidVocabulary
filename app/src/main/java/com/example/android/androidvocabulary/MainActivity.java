@@ -77,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
         //creates local variable for TextView created in activity_main.xml which text will be changed
         TextView textView = findViewById(resourceId);
 
+        TextView myTextObject = new TextView(this);
+        myTextObject.setText("New text object");
+
+
+
+
         //Make a copy of old text in TextView
         //since the new message will wiped it out
         // converts CharSequence returned by getText() to String type
