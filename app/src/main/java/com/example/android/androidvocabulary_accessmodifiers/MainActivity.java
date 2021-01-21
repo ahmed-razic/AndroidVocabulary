@@ -2,6 +2,7 @@ package com.example.android.androidvocabulary_accessmodifiers;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -12,13 +13,22 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void createCar(View v){
-            Car myCar = new Car();
-            Car myCar2 = new Car(1);
+    public void createCar1(View v){
+        Car myCar1 = new Car();
+        Toast toast1 = Toast.makeText(this, myCar1.message, Toast.LENGTH_SHORT);
+        toast1.show();
+    }
+
+    public void createCar2(View v){
+        Car myCar2 = new Car(2);
+        Toast toast2 = Toast.makeText(this, myCar2.message, Toast.LENGTH_LONG);
+        toast2.show();
     }
 
 
 }
+
+
 
 
 
