@@ -1,8 +1,10 @@
-package com.example.android.androidvocabulary_accessmodifiers;
+package com.example.android.androidvocabulary;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.android.androidvocabulary_accessmodifiers.Car;
 
 
 public class MainActivity extends AppCompatActivity {

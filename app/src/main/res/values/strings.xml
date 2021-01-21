@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidVocabulary_AccessModifiers</string>
+    <string name="app_name">AndroidVocabulary</string>
     <string name="create_car2">Create Car2</string>
     <string name="create_car1">Create Car1</string>
 </resources>
