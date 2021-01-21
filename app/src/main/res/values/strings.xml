@@ -2,4 +2,7 @@
     <string name="app_name">AndroidVocabulary</string>
     <string name="create_car2">Create Car2</string>
     <string name="create_car1">Create Car1</string>
+    <string name="sprinkles">Sprinkles</string>
+    <string name="cherry">Cherry</string>
+    <string name="changeText">ChangeText</string>
 </resources>
