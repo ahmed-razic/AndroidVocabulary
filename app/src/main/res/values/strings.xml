@@ -5,4 +5,6 @@
     <string name="sprinkles">Sprinkles</string>
     <string name="cherry">Cherry</string>
     <string name="changeText">ChangeText</string>
+    <string name="today_s_date">Todays date</string>
+    <string name="date">Date</string>
 </resources>

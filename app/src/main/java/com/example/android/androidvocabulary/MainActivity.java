@@ -8,6 +8,9 @@ import android.widget.Toast;
 
 import com.example.android.androidvocabulary_accessmodifiers.Car;
 
+import java.text.DateFormat;
+import java.util.Date;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -93,6 +96,23 @@ public class MainActivity extends AppCompatActivity {
 
         //returns old message if anyone needs it
         return oldMessage;
+    }
+
+    public void showDate(View v) {
+        TextView todayTextView = findViewById(R.id.todayDate);
+
+        if(todayTextView != null) {
+            Date today = new Date();
+            DateFormat justTheDate = DateFormat.getDateInstance();
+            String date = justTheDate.format(today);
+
+            String s2 = DateFormat.getDateInstance().format(today);
+
+           //String s1 = todaysDate.toString();
+
+            todayTextView.setText(s2);
+
+        }
     }
 
 }
