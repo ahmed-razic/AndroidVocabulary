@@ -7,4 +7,8 @@
     <string name="changeText">ChangeText</string>
     <string name="today_s_date">Todays date</string>
     <string name="date">Date</string>
+    <string name="name">Name</string>
+    <string name="image2">image2</string>
+    <string name="image1">image1</string>
+    <string name="name">Name</string>
 </resources>
